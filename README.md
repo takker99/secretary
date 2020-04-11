@@ -16,3 +16,8 @@ TODO,予定,の組み立て・管理を行うプログラムです。自分用�
 
 ## Data Structure
 
+## UML test
+
+![sequence dialog](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/takker99/secretary/preview-plain-uml/uml_test.txt)
+
+https://raw.githubusercontent.com/takker99/secretary/preview-plain-uml/uml_test.txt
