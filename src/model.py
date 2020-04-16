@@ -11,7 +11,6 @@ Todo:
     * conf.pyの``todo_include_todos = True``にしないと表示されない
 
 """
-import sqlite3
 
 # TODO: 作成するクラス一覧
 #
@@ -23,13 +22,30 @@ import sqlite3
 # tagによる検索機能もつける
 
 
+class Task:
+    pass
+
+
+class Record:
+    pass
+
+
+class Project:
+    pass
+
+
+class Tag:
+    pass
+
+
+class ProjectManager:
+    pass
+
+
 class TaskManager:
-    def __init__(self, cursor):
-        self.__database==cursor
+    def __init__(self):
         pass
 
-    def insert():
-        """
-        taskを追加する
-        """
-        pass
+
+class RecordManager:
+    pass
