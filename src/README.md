@@ -11,3 +11,10 @@
 - model.py
   - sqlite3 databseを管理するclassの実装
 
+## toml<-->sqlite3の変換formatについて
+
+```toml
+[[todo_list]]
+todo_id=1
+content=
+```
