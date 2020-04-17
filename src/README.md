@@ -2,7 +2,7 @@
 
 ## descriptions
 
-**Note**: 関係データベースの仕様は取りやめた。
+**Note**: 関係データベースの使用は取りやめた。
 
 - main.py
   - the start up script
