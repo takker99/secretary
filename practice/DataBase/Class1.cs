@@ -2,7 +2,7 @@
 
 namespace DataBase
 {
-    public class DataBase
+    public class Class1
     {
     }
 }
