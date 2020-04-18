@@ -6,7 +6,7 @@
     <!--<PublishSingleFile>true</PublishSingleFile>-->
     <PublishTrimmed>true</PublishTrimmed>
     <PublishReadyToRun>true</PublishReadyToRun>
-    <BaseOutputPath>c:/dotnet_build_dir/$(SolutionName)/$(ProjectName)/bin/</BaseOutputPath>
-    <BaseIntermediateOutputPath>c:/dotnet_build_dir/$(SolutionName)/$(ProjectName)/obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>e:/dotnet_build_dir/$(SolutionName)/$(MSBuildProjectName)/bin/</BaseOutputPath>
+    <BaseIntermediateOutputPath>e:/dotnet_build_dir/$(SolutionName)/$(MSBuildProjectName)/obj/</BaseIntermediateOutputPath>
   </PropertyGroup>
 </Project>
