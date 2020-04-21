@@ -9,5 +9,37 @@
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Menu Grid.Row="0" Grid.ColumnSpan="2">
+            <MenuItem Header="ファイル(_F)" />
+            <MenuItem Header="編集(_E)" />
+            <MenuItem Header="オプション(_O)">
+                <MenuItem IsCheckable="True" Header="オプション1" />
+                <MenuItem IsCheckable="True" Header="オプション2" />
+                <MenuItem IsCheckable="True" Header="オプション3" />
+            </MenuItem>
+        </Menu>
+        <DataGrid Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" />
+        <StatusBar Grid.Row="3" Grid.ColumnSpan="2">
+            <StatusBarItem>
+                <TextBlock Text="ステータスバーのサンプル" />
+            </StatusBarItem>
+            <Separator />
+            <StatusBarItem>
+                <ProgressBar IsIndeterminate="True" Width="150" Height="10"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="情報表示に使用します" />
+            </StatusBarItem>
+        </StatusBar>
     </Grid>
 </Window>
